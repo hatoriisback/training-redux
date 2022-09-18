@@ -11,6 +11,7 @@ const UserListFn = () => {
 
   return (
     <div className="wrapper">
+      <h1>[REDUX | Function Component] - Fetch Async Thunk</h1>
       <h1>All Users</h1>
       <button onClick={doFetchUsers}>Get Users</button>
       {/* <pre>{JSON.stringify(allUsers, null, 2)}</pre> */}

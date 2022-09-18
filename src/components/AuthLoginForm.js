@@ -7,6 +7,9 @@ import { useDispatch, useSelector } from "react-redux";
 // * Import file authLogin
 import { authLoginApi } from "../store/features/auth/authSlice";
 
+// * Import loader function
+// import loader from "../helpers/loader";
+
 function AuthLoginForm() {
   // * useSelector sebagai Getter
   const authState = useSelector((state) => state.auth);

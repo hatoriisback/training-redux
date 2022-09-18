@@ -9,16 +9,16 @@ import AuthLoginForm from "./components/AuthLoginForm";
 function App() {
   return (
     <div className="App">
-      {/* <CounterFn /> */}
+      <CounterFn />
       <br />
       <hr />
-      {/* <CounterClass /> */}
+      <CounterClass />
       <br />
       <hr />
-      {/* <UserListFn /> */}
+      <UserListFn />
       <br />
       <hr />
-      {/* <UserListClass /> */}
+      <UserListClass />
       <br />
       <hr />
       <AuthLoginForm />
